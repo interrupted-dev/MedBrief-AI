@@ -1,0 +1,6 @@
+streamlit
+pymupdf
+google-generativeai
+requests
+protobuf
+packaging
