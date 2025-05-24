@@ -7,6 +7,12 @@ from reportlab.lib.pagesizes import letter
 import os
 import google.generativeai as genai
 
+
+st.title("Authentication")
+if not st.experimental_user.is_logged_in:
+    if st.button("Authenticate"):
+        st.login("auth0")
+
 def create_qr_code(data):
     """Generate a QR code image for the given data."""
     qr = qrcode.QRCode(
