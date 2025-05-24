@@ -47,8 +47,11 @@ def save_summary_to_pdf(summary):
     pdf_buffer.seek(0)
     return pdf_buffer
 
-# Configure Gemini API
-genai.configure(api_key='AIzaSyCoBAZzNOnd2mKMnyNoxZC83KJVpRVCOVI')
+
+
+api_key = st.secrets["gcp"]["gemini_api_key"]
+genai.configure(api_key=api_key)
+
 
 generation_config = {
     "temperature": 1,
