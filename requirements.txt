@@ -1,6 +1,5 @@
 streamlit
 pymupdf
+qrcode
+reportlab
 google-generativeai
-requests
-protobuf
-packaging
