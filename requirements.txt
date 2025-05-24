@@ -1,6 +1,5 @@
-streamlit==1.35.0
-PyMuPDF==1.23.26
-qrcode==7.4.2
-reportlab==4.1.0
-google-generativeai==0.5.4
-git+https://github.com/Jcharis/streamlit-auth0-component.git
+streamlit
+pymupdf
+qrcode
+reportlab
+google-generativeai
