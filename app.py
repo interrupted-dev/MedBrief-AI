@@ -15,7 +15,7 @@ if not st.experimental_user.is_logged_in:
 
 st.json(st.experimental_user)
 st.header(f"Hello{st.experimental_user.name}")
-st.image{st.experimental_user.picture}
+st.image(st.experimental_user.picture)
 
 def create_qr_code(data):
     """Generate a QR code image for the given data."""
